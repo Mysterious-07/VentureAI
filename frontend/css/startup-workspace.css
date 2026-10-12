@@ -203,7 +203,7 @@
 }
 .tool-item:hover {
   background: var(--light-purple);
-  border-color: #E2DBFF;
+  border-color: #BAE6FD;
 }
 .tool-item__icon {
   width: 36px;
@@ -546,8 +546,8 @@
 .workspace-form-group input:focus,
 .workspace-form-group select:focus {
   outline: none;
-  border-color: var(--purple);
-  box-shadow: 0 0 0 3px rgba(91, 63, 228, 0.12);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
 }
 .workspace-form-group textarea::placeholder,
 .workspace-form-group input::placeholder {

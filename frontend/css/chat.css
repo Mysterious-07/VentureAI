@@ -4,9 +4,9 @@
    ========================================================================== */
 
 :root {
-  --chat-primary: #5B3FE4;
-  --chat-primary-hover: #4A30CF;
-  --chat-primary-light: rgba(91, 63, 228, 0.08);
+  --chat-primary: #0ea5e9;
+  --chat-primary-hover: #0284c7;
+  --chat-primary-light: rgba(14, 165, 233, 0.08);
   --chat-bg: #f8fafc;
   --chat-card-bg: #ffffff;
   --chat-border: #e2e8f0;
@@ -14,7 +14,7 @@
   --chat-muted: #64748b;
   --chat-online: #10b981;
   --chat-offline: #94a3b8;
-  --chat-bubble-outgoing: linear-gradient(135deg, #5B3FE4 0%, #6C52EE 100%);
+  --chat-bubble-outgoing: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
   --chat-bubble-incoming: #f1f5f9;
   --chat-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.06), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
 }
@@ -168,7 +168,7 @@
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #5B3FE4 0%, #8B5CF6 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
   color: #ffffff;
   font-weight: 700;
   font-size: 1rem;
@@ -239,7 +239,7 @@
 }
 
 .role-tag--mentor {
-  background: rgba(91, 63, 228, 0.1);
+  background: rgba(14, 165, 233, 0.1);
   color: var(--chat-primary);
 }
 

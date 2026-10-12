@@ -112,7 +112,7 @@
   transition: background 0.15s ease;
 }
 .tool-item--active:hover .tool-item__cta {
-  background: #4d34c9;
+  background: var(--primary-hover);
 }
 
 /* ---------- loading overlay ---------- */
@@ -736,7 +736,7 @@
 }
 .version-item:hover {
   background: var(--light-purple);
-  border-color: #E2DBFF;
+  border-color: #BAE6FD;
 }
 .version-item--active {
   background: var(--light-purple);

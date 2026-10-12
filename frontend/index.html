@@ -7,7 +7,7 @@
 <meta name="description" content="VentureAI is an AI-powered startup advisor that helps founders turn ideas into actionable plans — from idea validation to investor-ready pitch decks.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/auth.css">
 </head>
@@ -18,9 +18,9 @@
   <div class="container navbar__inner">
     <a href="#home" class="navbar__logo">
       <span class="logo-icon" aria-hidden="true">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2C12 2 17 4.5 17 11C17 14.5 15.5 17 15.5 17H8.5C8.5 17 7 14.5 7 11C7 4.5 12 2 12 2Z" fill="white"/><circle cx="12" cy="10" r="2" fill="#5B3FE4"/><path d="M8.5 17L6 21L9 19.5" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M15.5 17L18 21L15 19.5" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2C12 2 17 4.5 17 11C17 14.5 15.5 17 15.5 17H8.5C8.5 17 7 14.5 7 11C7 4.5 12 2 12 2Z" fill="white"/><circle cx="12" cy="10" r="2" fill="#0ea5e9"/><path d="M8.5 17L6 21L9 19.5" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M15.5 17L18 21L15 19.5" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </span>
-      <span class="navbar__brand">VentureAI</span>
+      <span class="navbar__brand">Venture<span class="brand-accent">AI</span></span>
     </a>
 
     <nav class="navbar__nav" id="navbar-nav" aria-label="Primary">
@@ -69,17 +69,17 @@
       <h1 class="hero__title">Your AI Co-Pilot for<br><span class="text-gradient">Smarter Startups</span></h1>
       <p class="hero__desc">From idea validation to investor-ready pitch decks, VentureAI guides you through every step of building a successful startup.</p>
       <div class="hero__cta">
-        <a href="register.html" class="btn btn--primary btn--lg" data-ripple>Get Started Free</a>
+        <a href="register.html" class="btn btn--primary btn--lg" data-ripple>Get Started Free <span aria-hidden="true">&rarr;</span></a>
         <a href="#how-it-works" class="btn btn--secondary btn--lg" id="see-how-it-works" data-ripple>
           <span class="play-icon" aria-hidden="true">▶</span> See How It Works
         </a>
       </div>
       <div class="hero__trust">
         <div class="avatar-stack" aria-hidden="true">
-          <span class="avatar" style="background:#C7B8FF">AM</span>
-          <span class="avatar" style="background:#FFD6A5">SI</span>
-          <span class="avatar" style="background:#A5D8FF">RV</span>
-          <span class="avatar" style="background:#B9F6CA">+</span>
+          <span class="avatar" style="background:#e0f2fe; color:#0284c7;">AM</span>
+          <span class="avatar" style="background:#bae6fd; color:#0369a1;">SI</span>
+          <span class="avatar" style="background:#dbeafe; color:#1d4ed8;">RV</span>
+          <span class="avatar" style="background:#f0f9ff; color:#0284c7;">+</span>
         </div>
         <p>Trusted by <strong>2,000+</strong> founders and innovators</p>
       </div>
@@ -157,13 +157,13 @@
 
       <div class="rocket" aria-hidden="true">
         <svg width="72" height="150" viewBox="0 0 72 150" fill="none">
-          <ellipse cx="36" cy="118" rx="18" ry="10" fill="#F5F2FF"/>
+          <ellipse cx="36" cy="118" rx="18" ry="10" fill="#e0f2fe"/>
           <path d="M36 4C36 4 58 30 58 78C58 98 50 112 50 112H22C22 112 14 98 14 78C14 30 36 4 36 4Z" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
-          <circle cx="36" cy="58" r="12" fill="#EFEAFF" stroke="#5B3FE4" stroke-width="2.5"/>
-          <circle cx="36" cy="58" r="5" fill="#5B3FE4"/>
-          <path d="M22 100L8 122L22 116" fill="#6D4AFF"/>
-          <path d="M50 100L64 122L50 116" fill="#6D4AFF"/>
-          <path d="M28 112L22 132L36 128L44 132L50 112" fill="#EFEAFF" stroke="#E5E7EB" stroke-width="1.2"/>
+          <circle cx="36" cy="58" r="12" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="2.5"/>
+          <circle cx="36" cy="58" r="5" fill="#0ea5e9"/>
+          <path d="M22 100L8 122L22 116" fill="#0284c7"/>
+          <path d="M50 100L64 122L50 116" fill="#0284c7"/>
+          <path d="M28 112L22 132L36 128L44 132L50 112" fill="#e0f2fe" stroke="#E5E7EB" stroke-width="1.2"/>
           <path class="flame" d="M30 128C30 128 26 138 36 148C46 138 42 128 42 128" fill="#FFB37A"/>
         </svg>
       </div>
@@ -213,8 +213,9 @@
 <section class="features" id="features">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow eyebrow--center">FEATURES</span>
-      <h2 class="section-title section-title--center">Powerful Features to Build Better Startups</h2>
+      <span class="eyebrow eyebrow--center">WHY CHOOSE VENTUREAI</span>
+      <h2 class="section-title section-title--center">Why choose VentureAI</h2>
+      <p class="section-desc" style="margin: 16px auto 0; text-align: center;">We combine AI intelligence with structured frameworks to help founders build exceptional startups.</p>
     </div>
 
     <div class="features__grid">
@@ -262,42 +263,49 @@
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow eyebrow--center">TESTIMONIALS</span>
-      <h2 class="section-title section-title--center">Loved by Founders</h2>
+      <h2 class="section-title section-title--center">What our founders say</h2>
+      <p class="section-desc" style="margin: 16px auto 0; text-align: center;">Real experiences from the innovators we support every day.</p>
     </div>
 
     <div class="testimonials__track" id="testimonials-track">
       <article class="testimonial-card reveal">
-        <span class="quote-icon" aria-hidden="true">&ldquo;</span>
-        <p>VentureAI helped me validate my idea and build a business plan in days, not weeks. It felt like having a co-founder who's an expert!</p>
+        <span class="quote-icon" aria-hidden="true">
+          <svg width="34" height="26" viewBox="0 0 34 26" fill="none"><path d="M0 26V15.6C0 7.8 4.3 2.6 13 0l2.2 4.3C10.4 5.7 8.3 8.3 8.1 12H14v14H0zm19 0V15.6C19 7.8 23.3 2.6 32 0l2.2 4.3c-4.8 1.4-6.9 4-7.1 7.7H33v14H19z" fill="#7dd3fc"/></svg>
+        </span>
+        <p>VentureAI helped me validate my idea and build a business plan in days, not weeks. It felt like having a co-founder who's an expert at every stage!</p>
         <div class="testimonial-card__person">
-          <span class="avatar" style="background:#C7B8FF">AM</span>
+          <span class="avatar" style="background:#e0f2fe; color:#0284c7;">AM</span>
           <div>
             <p class="name">Arjun Mehta</p>
-            <p class="role">Founder, FitGenie</p>
+            <p class="role">Founder, FitGenie · User since 2023</p>
           </div>
         </div>
       </article>
 
       <article class="testimonial-card reveal">
-        <span class="quote-icon" aria-hidden="true">&ldquo;</span>
-        <p>The AI insights are incredibly accurate and the canvas builder is super intuitive. It made our pitching journey so much smoother.</p>
+        <span class="quote-icon" aria-hidden="true">
+          <svg width="34" height="26" viewBox="0 0 34 26" fill="none"><path d="M0 26V15.6C0 7.8 4.3 2.6 13 0l2.2 4.3C10.4 5.7 8.3 8.3 8.1 12H14v14H0zm19 0V15.6C19 7.8 23.3 2.6 32 0l2.2 4.3c-4.8 1.4-6.9 4-7.1 7.7H33v14H19z" fill="#7dd3fc"/></svg>
+        </span>
+        <p>The AI insights are incredibly accurate and the canvas builder is super intuitive. It made our pitching journey so much smoother and clearer.</p>
         <div class="testimonial-card__person">
-          <span class="avatar" style="background:#FFD6A5">SI</span>
+          <span class="avatar" style="background:#bae6fd; color:#0369a1;">SI</span>
           <div>
             <p class="name">Sneha Iyer</p>
-            <p class="role">Co-founder, GreenLoop</p>
+            <p class="role">Co-founder, GreenLoop · User since 2022</p>
           </div>
         </div>
       </article>
 
       <article class="testimonial-card reveal">
-        <span class="quote-icon" aria-hidden="true">&ldquo;</span>
-        <p>As a student entrepreneur, this platform gave me the structure and confidence I needed to start and present my idea.</p>
+        <span class="quote-icon" aria-hidden="true">
+          <svg width="34" height="26" viewBox="0 0 34 26" fill="none"><path d="M0 26V15.6C0 7.8 4.3 2.6 13 0l2.2 4.3C10.4 5.7 8.3 8.3 8.1 12H14v14H0zm19 0V15.6C19 7.8 23.3 2.6 32 0l2.2 4.3c-4.8 1.4-6.9 4-7.1 7.7H33v14H19z" fill="#7dd3fc"/></svg>
+        </span>
+        <p>As an early-stage entrepreneur, this platform gave me the structure and confidence I needed to launch, validate, and present to investors.</p>
         <div class="testimonial-card__person">
-          <span class="avatar" style="background:#A5D8FF">RV</span>
+          <span class="avatar" style="background:#dbeafe; color:#1d4ed8;">RV</span>
           <div>
             <p class="name">Rohan Verma</p>
-            <p class="role">Founder, StudySpark</p>
+            <p class="role">Founder, StudySpark · User since 2021</p>
           </div>
         </div>
       </article>
@@ -317,36 +325,47 @@
 
     <div class="stats__grid">
       <div class="stat reveal">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="9" cy="8" r="3" stroke="#5B3FE4" stroke-width="1.6"/><circle cx="17" cy="9" r="2.4" stroke="#5B3FE4" stroke-width="1.6"/><path d="M2 20c0-3.3 3.1-6 7-6s7 2.7 7 6M15 14.5c3 .2 5 2 5 5.5" stroke="#5B3FE4" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="9" cy="8" r="3" stroke="#0ea5e9" stroke-width="1.6"/><circle cx="17" cy="9" r="2.4" stroke="#0ea5e9" stroke-width="1.6"/><path d="M2 20c0-3.3 3.1-6 7-6s7 2.7 7 6M15 14.5c3 .2 5 2 5 5.5" stroke="#0ea5e9" stroke-width="1.6" stroke-linecap="round"/></svg>
         <p class="stat__num" data-count="2000" data-suffix="+">0</p>
         <p class="stat__label">Active Founders</p>
         <p class="stat__sub">Growing every day</p>
       </div>
       <div class="stat reveal">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="1.5" stroke="#5B3FE4" stroke-width="1.6"/><path d="M8 8h8M8 12h8M8 16h5" stroke="#5B3FE4" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="1.5" stroke="#0ea5e9" stroke-width="1.6"/><path d="M8 8h8M8 12h8M8 16h5" stroke="#0ea5e9" stroke-width="1.6" stroke-linecap="round"/></svg>
         <p class="stat__num" data-count="1500" data-suffix="+">0</p>
         <p class="stat__label">Startup Workspaces</p>
         <p class="stat__sub">Ideas in progress</p>
       </div>
       <div class="stat reveal">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 2h9l5 5v15H6V2Z" stroke="#5B3FE4" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12h6M9 16h6M9 8h3" stroke="#5B3FE4" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 2h9l5 5v15H6V2Z" stroke="#0ea5e9" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12h6M9 16h6M9 8h3" stroke="#0ea5e9" stroke-width="1.6" stroke-linecap="round"/></svg>
         <p class="stat__num" data-count="4500" data-suffix="+">0</p>
         <p class="stat__label">Business Plans Built</p>
         <p class="stat__sub">AI-powered plans</p>
       </div>
       <div class="stat reveal">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="4" width="20" height="13" rx="1.5" stroke="#5B3FE4" stroke-width="1.6"/><path d="M8 21h8M12 17v4" stroke="#5B3FE4" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="4" width="20" height="13" rx="1.5" stroke="#0ea5e9" stroke-width="1.6"/><path d="M8 21h8M12 17v4" stroke="#0ea5e9" stroke-width="1.6" stroke-linecap="round"/></svg>
         <p class="stat__num" data-count="3000" data-suffix="+">0</p>
         <p class="stat__label">Pitch Decks Created</p>
         <p class="stat__sub">Investor ready</p>
       </div>
       <div class="stat stat--last reveal">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2.5 14.7 9l6.8.6-5.2 4.5 1.6 6.6L12 17.3 5.9 20.7l1.6-6.6L2.3 9.6 9.1 9 12 2.5Z" stroke="#5B3FE4" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2.5 14.7 9l6.8.6-5.2 4.5 1.6 6.6L12 17.3 5.9 20.7l1.6-6.6L2.3 9.6 9.1 9 12 2.5Z" stroke="#0ea5e9" stroke-width="1.6" stroke-linejoin="round"/></svg>
         <p class="stat__num" data-count="4.8" data-decimal="1" data-suffix="/5">0</p>
         <p class="stat__label">Average Rating</p>
         <p class="stat__sub">From our community</p>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- ================= CTA BANNER ================= -->
+<section class="cta-banner" id="cta">
+  <div class="container cta-banner__inner reveal">
+    <h2 class="cta-banner__title">Ready to transform your startup idea?</h2>
+    <p class="cta-banner__desc">Build your roadmap today and experience the difference of personalized AI co-pilot guidance.</p>
+    <a href="register.html" class="btn btn--white btn--lg" data-ripple>
+      Get Started <span aria-hidden="true">&rarr;</span>
+    </a>
   </div>
 </section>
 </main>
@@ -357,9 +376,9 @@
     <div class="footer__brand">
       <a href="#home" class="navbar__logo">
         <span class="logo-icon" aria-hidden="true">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 2C12 2 17 4.5 17 11C17 14.5 15.5 17 15.5 17H8.5C8.5 17 7 14.5 7 11C7 4.5 12 2 12 2Z" fill="white"/><circle cx="12" cy="10" r="2" fill="#5B3FE4"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 2C12 2 17 4.5 17 11C17 14.5 15.5 17 15.5 17H8.5C8.5 17 7 14.5 7 11C7 4.5 12 2 12 2Z" fill="white"/><circle cx="12" cy="10" r="2" fill="#0ea5e9"/></svg>
         </span>
-        <span class="navbar__brand navbar__brand--light">VentureAI</span>
+        <span class="navbar__brand">Venture<span class="brand-accent">AI</span></span>
       </a>
       <p>Your AI-powered co-pilot for startup success. From idea to investor-ready.</p>
       <div class="social-icons">

@@ -123,7 +123,7 @@
       container.innerHTML =
         '<div class="mentorship-empty">' +
           '<div class="mentorship-empty__icon">' +
-            '<svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="#5B3FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="7" r="4" stroke="#5B3FE4" stroke-width="2"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="#5B3FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>' +
+            '<svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="7" r="4" stroke="#0ea5e9" stroke-width="2"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>' +
           '</div>' +
           '<h3>' + escapeHTML(emptyMsg) + '</h3>' +
           '<p>' + escapeHTML(emptyDesc) + '</p>' +

@@ -281,7 +281,7 @@
 
     var html = '<div class="discovery-empty">' +
       '<div class="discovery-empty__icon">' +
-        '<svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="8" stroke="#5B3FE4" stroke-width="2"/><path d="M21 21l-4.35-4.35" stroke="#5B3FE4" stroke-width="2" stroke-linecap="round"/></svg>' +
+        '<svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="8" stroke="#0ea5e9" stroke-width="2"/><path d="M21 21l-4.35-4.35" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round"/></svg>' +
       '</div>' +
       '<h3>' + (hasFilters ? 'No mentors match your search' : 'No mentors available yet') + '</h3>' +
       '<p>' + (hasFilters

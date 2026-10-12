@@ -35,7 +35,7 @@
   justify-content: center;
   margin: 0 auto 18px;
   letter-spacing: 0.02em;
-  box-shadow: 0 8px 24px rgba(91, 63, 228, 0.25);
+  box-shadow: 0 8px 24px rgba(14, 165, 233, 0.25);
 }
 
 /* ---------- header info ---------- */
@@ -87,7 +87,7 @@
   transition: color 0.15s ease;
 }
 .profile-section__link:hover {
-  color: #4d34c9;
+  color: var(--primary-hover);
   text-decoration: underline;
 }
 
@@ -107,11 +107,11 @@
   font-weight: 600;
   padding: 6px 14px;
   border-radius: 999px;
-  border: 1px solid #E2DBFF;
+  border: 1px solid #BAE6FD;
   transition: background 0.15s ease, border-color 0.15s ease;
 }
 .skill-tag--editable:hover {
-  background: #EDE8FF;
+  background: var(--primary-light);
 }
 .skill-tag__remove {
   background: none;
@@ -150,8 +150,8 @@
 }
 .skill-input-wrap input:focus {
   outline: none;
-  border-color: var(--purple);
-  box-shadow: 0 0 0 3px rgba(91, 63, 228, 0.12);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
 }
 .skill-input-wrap input::placeholder { color: #9CA3AF; }
 .skill-add-btn {
@@ -167,7 +167,7 @@
   white-space: nowrap;
 }
 .skill-add-btn:hover {
-  background: #E2DBFF;
+  background: #BAE6FD;
 }
 
 /* ---------- edit form ---------- */
@@ -208,8 +208,8 @@
 .profile-form-group textarea:focus,
 .profile-form-group input:focus {
   outline: none;
-  border-color: var(--purple);
-  box-shadow: 0 0 0 3px rgba(91, 63, 228, 0.12);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
 }
 .profile-form-group textarea::placeholder,
 .profile-form-group input::placeholder { color: #9CA3AF; }

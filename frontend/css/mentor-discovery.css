@@ -56,8 +56,8 @@
 }
 .discovery-search__input:focus {
   outline: none;
-  border-color: var(--purple);
-  box-shadow: 0 0 0 3px rgba(91, 63, 228, 0.12);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
 }
 .discovery-search__input::placeholder { color: #9CA3AF; }
 .discovery-search__clear {
@@ -213,8 +213,8 @@
 .sort-select:hover { border-color: var(--purple); }
 .sort-select:focus {
   outline: none;
-  border-color: var(--purple);
-  box-shadow: 0 0 0 3px rgba(91, 63, 228, 0.12);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
 }
 
 /* ---------- results count ---------- */
@@ -273,7 +273,7 @@
 .mentor-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-md);
-  border-color: #E2DBFF;
+  border-color: #BAE6FD;
 }
 
 /* card header */
@@ -295,7 +295,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  box-shadow: 0 4px 12px rgba(91, 63, 228, 0.2);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.2);
   letter-spacing: 0.02em;
 }
 .mentor-card__avatar img {
@@ -349,7 +349,7 @@
   font-weight: 600;
   padding: 4px 10px;
   border-radius: 999px;
-  border: 1px solid #E2DBFF;
+  border: 1px solid #BAE6FD;
   white-space: nowrap;
 }
 .mentor-card__tag--industry {
@@ -587,7 +587,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  box-shadow: 0 8px 24px rgba(91, 63, 228, 0.25);
+  box-shadow: 0 8px 24px rgba(14, 165, 233, 0.25);
   letter-spacing: 0.02em;
 }
 .mentor-detail__avatar img {

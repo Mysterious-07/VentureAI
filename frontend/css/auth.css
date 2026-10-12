@@ -80,8 +80,8 @@
 }
 .navbar__profile-dropdown a:hover,
 .navbar__profile-dropdown button:hover {
-  background: #F5F2FF !important;
-  color: #5B3FE4 !important;
+  background: var(--primary-light) !important;
+  color: var(--primary-hover) !important;
 }
 
 /* Mobile nav reuses the same actions markup — stack full width */
@@ -91,8 +91,9 @@
 
 /* ---------- simplified footer for auth/dashboard pages ---------- */
 .footer--simple {
-  background: var(--footer-dark);
-  color: #A9B1C6;
+  background: var(--white);
+  color: var(--muted);
+  border-top: 1px solid var(--border);
   padding: 28px 0;
 }
 .footer--simple .container {
@@ -111,7 +112,7 @@
   padding-bottom: 64px;
   display: flex;
   align-items: center;
-  background: linear-gradient(180deg, #FFFFFF 0%, #FAF9FF 45%, #F3F0FF 100%);
+  background: linear-gradient(180deg, #FFFFFF 0%, #F0F9FF 45%, #E0F2FE 100%);
 }
 .auth-section__inner {
   display: grid;
@@ -174,8 +175,8 @@
 .form-group input:focus,
 .form-group select:focus {
   outline: none;
-  border-color: var(--purple);
-  box-shadow: 0 0 0 3px rgba(91, 63, 228, 0.12);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
 }
 .form-group input.field-error { border-color: var(--error); }
 .field-hint { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
@@ -398,7 +399,7 @@
   align-items: center;
   justify-content: center;
   padding-top: var(--nav-h);
-  background: linear-gradient(180deg, #FFFFFF 0%, #FAF9FF 55%, #F3F0FF 100%);
+  background: linear-gradient(180deg, #FFFFFF 0%, #F0F9FF 55%, #E0F2FE 100%);
   text-align: center;
 }
 .status-card { max-width: 440px; padding: 0 24px; }

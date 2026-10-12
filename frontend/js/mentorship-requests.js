@@ -95,7 +95,7 @@
       container.innerHTML =
         '<div class="mentorship-empty">' +
           '<div class="mentorship-empty__icon">' +
-            '<svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7Z" stroke="#5B3FE4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>' +
+            '<svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7Z" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>' +
           '</div>' +
           '<h3>No mentorship requests yet</h3>' +
           '<p>Discover mentors and send a request to start your mentorship journey.</p>' +
